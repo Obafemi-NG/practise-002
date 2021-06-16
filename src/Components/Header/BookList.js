@@ -13,7 +13,6 @@ export default class BookList extends Component {
         const {books} = this.state;        
         return(
             <div>  
-                <p>Hello From Book List!</p>
                 {books.map(book => <Books key = {book.id} item = {book} /> )}
                 
             </div>

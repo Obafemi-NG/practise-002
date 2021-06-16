@@ -1,8 +1,21 @@
+.header {
+  padding: 1rem;
+  background-color: darkturquoise;
+}
+.header h3{
+  color: white;
+}
 .books {
   margin: 1rem ;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 2rem;
+}
+p {
+  color: dimgrey;
+}
+h6{
+  color:darkgray;
 }
 
 /* .App {
